@@ -1,9 +1,6 @@
-su vagrant
+cp /var/www/scripts/hydrate.sh /home/vagrant/hydrate.sh
+chown vagrant:vagrant /home/vagrant/hydrate.sh
+chmod 775 /home/vagrant/hydrate.sh
 
-cp /var/www/scripts/dump.sh ~/dump.sh
-cp /var/www/scripts/hydrate.sh ~/hydrate.sh
-chmod 775 ~/dump.sh
-chmod 775 ~/hydrate.sh
-
-cd ~
+cd /home/vagrant
 ./hydrate.sh
