@@ -18,7 +18,4 @@ Vagrant.configure("2") do |config|
     # Optional NFS. Make sure to remove other synced_folder line too
     #config.vm.synced_folder ".", "/var/www", :nfs => { :mount_options => ["dmode=777","fmode=666"] }
 
-    # config.vm.provision "file", source: "./scripts", destination: "$HOME/scripts"
-    config.vm.provision "shell", path: "scripts/provision.sh"
-
 end
