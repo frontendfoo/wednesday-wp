@@ -1,1 +1,17 @@
 # Wednesday Club API!
+
+## Dependencies
+
+You will need vagrant installed.
+
+## Getting started
+
+Intiate Wordpress server
+```shell
+$ vagrant up
+```
+
+Kill wordpress server
+```shell
+$ vagrant destroy
+```
