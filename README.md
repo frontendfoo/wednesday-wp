@@ -15,3 +15,7 @@ Kill wordpress server
 ```shell
 $ vagrant destroy
 ```
+
+## hostname
+http://192.168.33.10/
+
