@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'scotchbox' );
 
 /** MySQL database username */
-define( 'DB_USER', 'wednesday' );
+define( 'DB_USER', 'wordpress' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'wednesday' );
+define( 'DB_PASSWORD', '1148833a10f331fe7a4caacb1406c2d16179dc67f44eccd9' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
